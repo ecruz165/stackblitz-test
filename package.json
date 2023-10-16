@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mocks": "json-server --watch ./mocks/index.js --id drug_concept_id --routes ./mocks/routes.json --port 3001"
   },
   "dependencies": {
     "@types/node": "20.6.2",
@@ -15,6 +16,7 @@
     "autoprefixer": "10.4.15",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.1",
+    "json-server": "^0.17.4",
     "next": "13.5.1",
     "postcss": "8.4.30",
     "react": "18.2.0",
